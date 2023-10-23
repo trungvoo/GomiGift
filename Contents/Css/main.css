@@ -1046,8 +1046,8 @@ body{
     align-items: center;
 }
 
-.footer-wrap-content-info__address i{
-    font-size: 20px;
+.footer-wrap-content-info__address img{
+    width: 23px;
     margin-right: 10px;
 }
 
@@ -1072,11 +1072,10 @@ body{
     margin-right: 20px;
 }
 
-.footer-wrap-content-info__hotline-phone i,
-.footer-wrap-content-info__hotline-mail i{
-    font-size: 20px;
+.footer-wrap-content-info__hotline-phone img,
+.footer-wrap-content-info__hotline-mail img{
+    width: 23px;
     margin-right: 10px;
-    margin-top: 3px;
 }
 
 .footer-wrap-content-info__hotline-phone span,

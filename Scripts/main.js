@@ -6,6 +6,11 @@ $(function(){
 
 function homeTabsToggle(){
     $(document).ready(function() {
+
+        $('.main-section-category-tabs .main-section-category-tabs-link li:first').addClass("active");
+
+        $('.main-section-category-tabs .main-section-category-tab-content .tab-content-items:first').addClass("active")
+
         $('.main-section-category-tabs .main-section-category-tabs-link a').on('click', function(e)  {
             var currentAttrValue = $(this).attr('href');
  
