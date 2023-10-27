@@ -215,13 +215,14 @@
 }
 
 .main-section-product-detail-wrap-content-title{
-    padding: 10px 30px;
+    padding: 10px;
     background-color: #fe5400;
     color: #FDF5CF;
+    text-align: center;
 }
 
 .main-section-product-detail-wrap-content-info{
-    padding: 20px 30px;
+    padding: 20px 40px;
     background-color: #f9f9f9;
     text-align: justify;
 }
