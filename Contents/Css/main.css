@@ -848,6 +848,7 @@ body{
     position: fixed;
     right: 40px;
     top: calc(50% - 125px);
+    z-index: 999999;
 }
 
 .main-section-contact-wrap-content {

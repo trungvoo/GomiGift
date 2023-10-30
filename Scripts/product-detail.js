@@ -27,3 +27,16 @@ function swiperJs(){
   });
 
 }
+
+function seeMore(){
+    if($(".main-section-product-detail-wrap-content").hasClass("show-more")){
+        $(".main-section-product-detail-wrap-content").toggleClass("show-more", 2000);
+        $(".main-section-product-detail-wrap-content-see-more").find("button").html("Xem thêm");
+        $(".wrap-main-detail-content__show-more").toggleClass("active", 2000);
+    }
+    else{
+        $(".main-section-product-detail-wrap-content").toggleClass("show-more", 2000);
+        $(".main-section-product-detail-wrap-content-see-more").find("button").html("Thu gọn");
+        $(".wrap-main-detail-content__show-more").toggleClass("active", 2000);
+    }
+}
